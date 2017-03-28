@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+
+    tools:context="androidsqlite.com.fragmenttutorial.fragmentB">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text1"
+        android:hint="First Text"
+        android:background="@color/colorPrimary"
+        android:lines="3"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text2"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:lines="3"
+        android:hint="Second text"
+        android:layout_below="@id/edit_text1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button1_fb"
+        android:layout_below="@+id/edit_text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_below="@id/button1_fb"
+        android:id="@+id/result_f_xml"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        />
+
+
+</RelativeLayout>
